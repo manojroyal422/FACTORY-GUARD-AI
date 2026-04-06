@@ -1,7 +1,12 @@
-opencv-python
-numpy
 pandas
-scikit-learn
+numpy
 matplotlib
-tensorflow
-flask
+seaborn
+joblib
+shap
+optuna
+scikit-learn
+xgboost
+lightgbm
+catboost
+plotly
