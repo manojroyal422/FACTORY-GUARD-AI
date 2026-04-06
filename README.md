@@ -30,16 +30,6 @@ streamlit run app.py
 <img width="1909" height="893" alt="Screenshot 2026-04-06 141926" src="https://github.com/user-attachments/assets/461adc0c-bb15-4fda-8d2a-93aa61a26fbc" />
 <img width="1909" height="893" alt="Screenshot 2026-04-06 141926" src="https://github.com/user-attachments/assets/e290a021-4856-4447-8989-f65833386b01" />
 
-
-
-
-
-
-
-
-
-
-
 ## 📊 Performance
 - Accuracy: 98%
 - ROC-AUC: 0.98
