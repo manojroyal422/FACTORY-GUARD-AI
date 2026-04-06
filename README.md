@@ -1,26 +1,39 @@
-# FACTORY-GUARD-AI
-Factory Guard AI is an intelligent surveillance and safety monitoring system that uses Artificial Intelligence to detect potential hazards in industrial environments. The system analyzes live video feeds using computer vision techniques to identify unsafe conditions such as missing safety gear, unauthorized access and abnormal activities inrealtime
+# Factory Guard AI 🚀
+
+## 📌 Description
+Factory Guard AI is an intelligent safety monitoring system that uses Machine Learning and Computer Vision to detect hazards in industrial environments.  
+It identifies unsafe conditions like missing safety gear, unauthorized access, and abnormal activities in real time.
+
+---
+
 ## 🔥 Features
 - Machine failure prediction
-- ML model (LightGBM)
-- Streamlit UI
-- High accuracy
+- AI-based safety monitoring
+- Streamlit web interface
+- High accuracy detection
 
-## 🛠 Technologies
+---
+
+## 🛠 Technologies Used
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - LightGBM
 - Streamlit
 
+---
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
 ## ▶️ How to Run
 pip install -r requirements.txt  
 streamlit run app.py
 
 out put screenshorts
-
-
-
 
 <img width="1607" height="664" alt="Screenshot 2026-04-06 142351 - Copy" src="https://github.com/user-attachments/assets/ed6b865f-1544-4810-8ad9-d8bd320399c0" />
 <img width="1820" height="734" alt="Screenshot 2026-04-06 142340" src="https://github.com/user-attachments/assets/cfa74f65-fa89-41cf-a3a9-700720b338ea" />
@@ -38,7 +51,7 @@ out put screenshorts
 <img width="1909" height="893" alt="Screenshot 2026-04-06 141926" src="https://github.com/user-attachments/assets/7bd2fb5e-76c9-4cf6-89df-aab1c4c4cd2f" />
 
 
-
+📊 Model Performance
 - Accuracy: 98%
 - ROC-AUC: 0.98
 - F1 Score: 0.87
