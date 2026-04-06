@@ -1,37 +1,221 @@
-# Factory Guard AI 🚀
+# 🚨 Factory Guard AI
 
-## 📌 Description
-Factory Guard AI is an intelligent safety monitoring system that uses Machine Learning and Computer Vision to detect hazards in industrial environments.  
-It identifies unsafe conditions like missing safety gear, unauthorized access, and abnormal activities in real time.
+### AI-Powered Industrial Safety Risk Prediction System
 
----
-
-## 🔥 Features
-- Machine failure prediction
-- AI-based safety monitoring
-- Streamlit web interface
-- High accuracy detection
+> A production-oriented Machine Learning system designed to proactively identify unsafe industrial conditions and reduce workplace accidents through intelligent risk prediction.
 
 ---
 
-## 🛠 Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- LightGBM
-- Streamlit
+## 📌 Problem Statement
+
+Industrial workplaces face significant safety challenges due to:
+
+* Lack of real-time monitoring
+* Human error and unsafe practices
+* Delayed identification of hazardous conditions
+
+Traditional systems are **reactive**, responding only after incidents occur.
+
+### 🎯 Objective
+
+To build a **proactive AI-driven safety system** that predicts potential risks and enables early intervention.
 
 ---
 
-## ▶️ How to Run
+## 🧠 System Overview
+
+Factory Guard AI is an end-to-end Machine Learning application that:
+
+* Ingests industrial condition parameters
+* Applies a trained **LightGBM model**
+* Predicts risk levels (**Safe / Unsafe**)
+* Displays results through an interactive **Streamlit dashboard**
+
+### 🔁 High-Level Workflow
+
+1. Data Collection
+2. Data Preprocessing
+3. Feature Engineering
+4. Model Training (LightGBM)
+5. Model Evaluation
+6. Deployment via Streamlit UI
+
+---
+
+## 🏗️ System Architecture
+
+```text
+[Input Data] → [Preprocessing] → [LightGBM Model] → [Prediction] → [Streamlit UI]
+```
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer             | Technology          |
+| ----------------- | ------------------- |
+| Language          | Python              |
+| ML Framework      | LightGBM            |
+| Data Processing   | Pandas, NumPy       |
+| Visualization     | Matplotlib, Seaborn |
+| Web Interface     | Streamlit           |
+| Model Persistence | Pickle              |
+| Version Control   | Git & GitHub        |
+
+---
+
+## 📊 Model Details
+
+### 🔍 Algorithm: LightGBM
+
+A gradient boosting framework optimized for speed and performance.
+
+### ✅ Why LightGBM?
+
+* Handles large-scale structured data efficiently
+* Faster training compared to XGBoost
+* High accuracy with lower memory usage
+
+### 📈 Performance Metrics
+
+| Metric   | Score     |
+| -------- | --------- |
+| Accuracy | **~98%**  |
+| F1 Score | **~0.87** |
+| ROC-AUC  | **~0.98** |
+
+### 🧪 Training Pipeline
+
+* Data Cleaning
+* Feature Scaling
+* Train-Test Split
+* Model Training
+* Hyperparameter Tuning
+* Evaluation
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Application Interface
+
+![App](screenshots/home.png)
+
+### 🔹 User Input & Prediction
+
+![Prediction](screenshots/prediction.png)
+
+### 🔹 Output Result
+
+![Output](screenshots/output.png)
+
+### 🔹 Performance Visualization
+
+![Results](screenshots/results.png)
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+* Python 3.8+
+* pip
+
+---
+
+### 📥 Installation
 
 ```bash
+git clone https://github.com/your-username/FACTORY-GUARD-AI.git
+cd FACTORY-GUARD-AI
 pip install -r requirements.txt
-streamlit run app.py
+```
 
-## ▶️ How to Run
-pip install -r requirements.txt  
+---
+
+### ▶️ Run the Application
+
+```bash
 streamlit run app.py
+```
+
+---
+
+### 🌐 Access
+
+Open in browser:
+
+```
+http://localhost:8501
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+FACTORY-GUARD-AI/
+│
+├── app.py                # Streamlit application
+├── train_model.py       # Model training script
+├── requirements.txt     # Dependencies
+├── README.md            # Documentation
+├── screenshots/         # Project images
+└── model.pkl            # Trained ML model
+```
+
+---
+
+## 📈 Results & Impact
+
+* Achieves **high prediction accuracy (~98%)**
+* Enables **early detection of unsafe conditions**
+* Reduces dependency on manual monitoring
+* Can significantly improve **industrial safety compliance**
+
+---
+
+## 🔮 Future Scope
+
+* 🎥 Integration with **Computer Vision (CCTV monitoring)**
+* 📡 Real-time data streaming (IoT sensors)
+* 📲 Alert system (SMS / Email / Dashboard notifications)
+* ☁️ Cloud deployment (AWS / Azure / GCP)
+* 🤖 Deep Learning models for complex pattern detection
+
+---
+
+## 🧪 Use Cases
+
+* Manufacturing Plants
+* Construction Sites
+* Chemical Industries
+* Smart Factories (Industry 4.0)
+
+---
+
+## 👨‍💻 Author
+
+**Manoj Royal**
+B.Tech CSE (AI)
+Focused on building real-world AI solutions
+
+---
+
+## ⭐ Support
+
+If you find this project useful:
+
+* ⭐ Star this repository
+* 🍴 Fork it
+* 📢 Share with others
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
 
 out put screenshorts
 
@@ -51,10 +235,4 @@ out put screenshorts
 <img width="1909" height="893" alt="Screenshot 2026-04-06 141926" src="https://github.com/user-attachments/assets/7bd2fb5e-76c9-4cf6-89df-aab1c4c4cd2f" />
 
 
-📊 Model Performance
-- Accuracy: 98%
-- ROC-AUC: 0.98
-- F1 Score: 0.87
 
-## 👤 Author
-Manoj Royal
