@@ -1,51 +1,86 @@
-<p align="center">
+<div align="center">
 
-<img src="assets/banner.png" width="100%" alt="Factory Guard AI Banner">
+  <!-- Main Banner Title -->
+  <h1>🏭 Factory Guard AI</h1>
+  <h3><i>Real-Time Industrial Safety Risk Prediction & Anomaly Detection</i></h3>
 
-</p>
+  <!-- Shield / Technology Badges -->
+  <p>
+    <a href="https://github.com/your-username/factory-guard-ai/stargazers"><img src="https://img.shields.io/github/stars/your-username/factory-guard-ai?style=for-the-badge&logo=github&color=FFD700" alt="Stars"></a>
+    <a href="https://github.com/your-username/factory-guard-ai/network/members"><img src="https://img.shields.io/github/forks/your-username/factory-guard-ai?style=for-the-badge&logo=github&color=00BFFF" alt="Forks"></a>
+    <a href="https://github.com/your-username/factory-guard-ai/issues"><img src="https://img.shields.io/github/issues/your-username/factory-guard-ai?style=for-the-badge&color=FF4500" alt="Issues"></a>
+    <a href="https://github.com/your-username/factory-guard-ai/blob/main/LICENSE"><img src="https://img.shields.io/github/license/your-username/factory-guard-ai?style=for-the-badge&color=2E8B57" alt="License"></a>
+  </p>
 
-<h1 align="center">
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/LightGBM-Gradient%20Boosting-02569B?style=flat-square&logo=lightgbm&logoColor=white" alt="LightGBM">
+    <img src="https://img.shields.io/badge/Streamlit-Interactive%20UI-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+    <img src="https://img.shields.io/badge/Scikit--Learn-ML%20Pipeline-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
+  </p>
 
-🏭 Factory Guard AI
+  <br />
 
-</h1>
+  <!-- Action Slogan Banner -->
+  <blockquote>
+    <b>Predict • Detect • Prevent • Protect</b><br/>
+    <i>Transforming industrial telemetry into proactive workplace safety interventions.</i>
+  </blockquote>
 
-<h3 align="center">
+  <p align="center">
+    <a href="#-key-features"><b>Key Features</b></a> •
+    <a href="#-architecture--pipeline"><b>Architecture</b></a> •
+    <a href="#-quick-start"><b>Quick Start</b></a> •
+    <a href="#-live-demo"><b>Live Demo</b></a>
+  </p>
 
-Industrial Safety Risk Prediction using Machine Learning
-
-</h3>
-
-<p align="center">
-
-Predict • Detect • Prevent • Protect
-
-</p>
-
-<p align="center">
-
-An enterprise-grade Machine Learning application that predicts industrial safety risks using LightGBM and delivers real-time insights through an interactive Streamlit dashboard.
-
-</p>
+</div>
 
 ---
 
+## ⚡ Executive Summary
+
+**Factory Guard AI** is an enterprise-grade machine learning solution designed to eliminate workplace accidents before they happen. By processing complex multi-sensor industrial operational conditions in real time, the platform transitions safety management from **reactive threshold alerts** to **predictive intelligence**.
+
+Powered by a fine-tuned **LightGBM** classification engine and served through an intuitive **Streamlit dashboard**, Factory Guard AI evaluates live telemetry—such as ambient temperature, pressure, toxicity levels, and machine vibrations—delivering instantaneous risk assessments and preventive recommendations.[ Multi-Sensor Telemetry ]
+               │
+               ▼
+ [ Data Preprocessing Pipeline ]
+               │
+               ▼
+ [ LightGBM Inference Engine ]
+               │
+     ┌─────────┴─────────┐
+     ▼                   ▼
+🟢 [ SAFE ]        🔴 [ UNSAFE ]
+---
+
+## 🌟 Key Features & Capabilities
+
+| Capability | Legacy Threshold Systems | 🏭 Factory Guard AI |
+| :--- | :--- | :--- |
+| **Detection Methodology** | Single-variable static limits | Multi-variate non-linear pattern recognition |
+| **Response Latency** | Post-incident rule trigger | Millisecond real-time risk classification |
+| **False Alarm Rate** | High (frequent nuisance trips) | Low (calibrated gradient boosting confidence) |
+| **Actionable Insights** | Basic binary alarm | Feature importance & preventive guidance |
+
+<br/>
+
+### 🎯 Core Highlights
+
+* 🤖 **High-Performance LightGBM Engine:** Engineered for fast, low-latency inference on high-dimensional sensor data with strong imbalanced-class handling.
+* 📊 **Interactive Risk Dashboard:** Built with Streamlit to display immediate risk status, probability scores, and critical feature triggers.
+* 🛡️ **Proactive Incident Prevention:** Uncovers multi-parameter non-linear safety hazards before hardware fails or threshold breaches occur.
+* ⚙️ **Production-Ready ML Pipeline:** Includes modular data preprocessing, robust feature scaling, and isolated model artifact serialization (`.pkl`).
+
+---
+
+## 🛠️ Tech Stack & Dependencies
+---
+
 <p align="center">
-
-⭐ If you like this project, consider giving it a star.
-
+  <b>⭐ If you find this project valuable, please consider giving it a star on GitHub! ⭐</b>
 </p>
-## 🚀 Overview
-
-Factory Guard AI is an end-to-end machine learning solution designed to enhance industrial workplace safety through intelligent risk prediction.
-
-The application analyzes operational conditions, applies a trained LightGBM classification model, and instantly predicts whether the current environment is **Safe** or **Unsafe**.
-
-Unlike traditional monitoring systems that rely solely on threshold-based alerts, Factory Guard AI leverages machine learning to identify complex patterns within industrial data, enabling organizations to take preventive actions before incidents occur.
-
-The project demonstrates the complete lifecycle of an ML solution—from data preprocessing and feature engineering to model deployment using an interactive Streamlit web application.
-
-Designed with scalability, modularity, and usability in mind, Factory Guard AI serves as both a practical industrial safety tool and a production-oriented machine learning portfolio project.
 ## 💼 Business Impact
 
 Industrial safety incidents can result in:
