@@ -1,6 +1,7 @@
 <p align="center">
 
-<img src="assets/banner.png" width="100%" alt="Factory Guard AI Banner">
+<img src="assets/banner.![Uploading image.png…]()
+" width="100%" alt="Factory Guard AI Banner">
 
 </p>
 
