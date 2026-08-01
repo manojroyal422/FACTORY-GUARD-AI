@@ -81,3 +81,73 @@ This project was developed following modern software engineering practices:
 - Separation of Concerns
 - Production-Oriented Development
 - Scalable ML Pipeline
+<div align="center">
+
+# 🏭 Factory Guard AI
+
+### AI-Powered Industrial Safety Risk Prediction Platform
+
+<img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/LightGBM-Gradient%20Boosting-2E8B57?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Streamlit-Web%20Application-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pickle-Model%20Persistence-7952B3?style=for-the-badge"/>
+
+</div>
+<div align="center">
+
+| Status | Badge |
+|--------|-------|
+| Build | ![](https://img.shields.io/badge/Build-Passing-success?style=flat-square) |
+| Version | ![](https://img.shields.io/badge/Version-v1.0-blue?style=flat-square) |
+| License | ![](https://img.shields.io/badge/License-MIT-success?style=flat-square) |
+| Python | ![](https://img.shields.io/badge/Python-3.11+-blue?style=flat-square) |
+| Platform | ![](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=flat-square) |
+| Model | ![](https://img.shields.io/badge/Model-LightGBM-brightgreen?style=flat-square) |
+| UI | ![](https://img.shields.io/badge/UI-Streamlit-red?style=flat-square) |
+| Maintenance | ![](https://img.shields.io/badge/Maintained-Yes-success?style=flat-square) |
+
+</div>
+## 💻 Built With
+
+| Category | Technology |
+|-----------|------------|
+| 🐍 Programming | Python |
+| 🤖 Machine Learning | LightGBM |
+| 📊 Data Analysis | Pandas, NumPy |
+| 📈 Visualization | Matplotlib, Seaborn |
+| 🌐 Web Framework | Streamlit |
+| 💾 Model Storage | Pickle |
+| 🔧 Version Control | Git & GitHub |
+| 💻 IDE | VS Code, Jupyter Notebook |
+## 🏅 Skills Demonstrated
+
+- Machine Learning
+- Classification Algorithms
+- LightGBM
+- Feature Engineering
+- Data Cleaning
+- Exploratory Data Analysis
+- Model Evaluation
+- Hyperparameter Tuning
+- Python Development
+- Data Visualization
+- Streamlit
+- Software Engineering
+- Git Version Control
+- Technical Documentation
+- > ### 👀 Recruiter Snapshot
+>
+> - ✅ End-to-End ML Project
+> - ✅ Production-Oriented Code Structure
+> - ✅ Interactive Web Application
+> - ✅ Strong Model Performance (~98% Accuracy)
+> - ✅ Modular & Maintainable Design
+> - ✅ Practical Industrial Use Case
+> - ✅ Demonstrates Data Science + Software Engineering Skills
